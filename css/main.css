@@ -1,0 +1,51 @@
+
+
+
+ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #ff9d44;
+}
+
+#gallary ul li:first-child a {
+    
+    color: #ff9d44 !important;
+}
+
+@media (max-width:768px) {
+    #gallary ul {
+        flex-direction: column !important;
+       
+    }
+
+        #gallary ul li {
+            margin: 10px auto !important;
+        }
+}
+
+#gallary img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+#gallary .card {
+    border: none !important;
+    text-align: center !important;
+}
+
+#gallary .btn {
+    background-color: #ff9d44 !important;
+    border: none;
+}
